@@ -1,6 +1,7 @@
 package com.ljx.test001;
 
 /**
+ * 第一章，JAVA通用方法和准则
  * @Created by taylor on 2016/10/31.
  * @commit 不要在常量和变量中出现易混淆的字母
  */
