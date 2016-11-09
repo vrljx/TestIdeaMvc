@@ -8,27 +8,33 @@ import javax.sound.midi.Soundbank;
  */
 public class Client037 {
     public static void main(String[] args) {
-        
+
     }
 }
-class Base{
+
+class Base {
     private static int num = 0;
+
     // 构造代码块
     {
-        num ++;
+        num++;
     }
+
     // 构造函数
-    public Base(){
+    public Base() {
         System.out.println("无参数 构造");
     }
-    public Base(String str){
+
+    public Base(String str) {
         System.out.println("String 构造");
     }
-    public Base(Boolean b){
+
+    public Base(Boolean b) {
         this();
     }
-    public Base(Integer in){
-        System.out.println("Integer 构造");   
+
+    public Base(Integer in) {
+        System.out.println("Integer 构造");
     }
 
     public static void main(String[] args) {
@@ -37,5 +43,5 @@ class Base{
         new Base(true);
         new Base(10);
         System.out.println(num);
-    } 
+    }
 }
